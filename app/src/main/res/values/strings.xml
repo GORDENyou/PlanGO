@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PlanGo</string>
+    <string name="plan_year">年计划</string>
+    <string name="plan_month">月计划</string>
+    <string name="plan_week">周计划</string>
+    <string name="plan_day">日计划</string>
+</resources>
