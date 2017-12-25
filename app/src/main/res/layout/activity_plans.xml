@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#F5F5F5"
+    tools:context="com.plango.gordenyou.plango.PlanActivity">
+
+    <com.plango.gordenyou.plango.GoToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="选择计划"
+        />
+
+    <Button
+        android:id="@+id/btn_year"
+        style="@style/ButtonStyle"
+        android:text="@string/plan_year"/>
+
+    <Button
+        android:id="@+id/btn_month"
+        style="@style/ButtonStyle"
+        android:text="@string/plan_month"/>
+
+    <Button
+        android:id="@+id/btn_week"
+        style="@style/ButtonStyle"
+        android:text="@string/plan_week"/>
+
+    <Button
+        android:id="@+id/btn_day"
+        style="@style/ButtonStyle"
+        android:text="@string/plan_day"/>
+</LinearLayout>
