@@ -1,18 +1,20 @@
-package com.plango.gordenyou.plango;
+package com.plango.gordenyou.plango.Activity;
 
 import android.annotation.SuppressLint;
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+
+import com.plango.gordenyou.plango.R;
 
 
 /**
  * Created by Gordenyou on 2017/12/22.
  */
 
-public abstract class BaseActivity extends Activity {
+public abstract class BaseActivity extends AppCompatActivity {
 
     private Toolbar toolbar;
 

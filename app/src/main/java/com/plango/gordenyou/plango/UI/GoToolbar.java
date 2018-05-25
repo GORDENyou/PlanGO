@@ -1,4 +1,4 @@
-package com.plango.gordenyou.plango;
+package com.plango.gordenyou.plango.UI;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -10,6 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.plango.gordenyou.plango.R;
 
 /**
  * Created by Gordenyou on 2017/12/25.

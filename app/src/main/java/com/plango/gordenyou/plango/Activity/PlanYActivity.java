@@ -1,4 +1,4 @@
-package com.plango.gordenyou.plango;
+package com.plango.gordenyou.plango.Activity;
 
 import android.os.Bundle;
 

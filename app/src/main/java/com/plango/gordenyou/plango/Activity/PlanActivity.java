@@ -1,4 +1,4 @@
-package com.plango.gordenyou.plango;
+package com.plango.gordenyou.plango.Activity;
 
 import android.os.Bundle;
 
@@ -7,6 +7,7 @@ import android.os.Bundle;
  */
 
 public class PlanActivity extends BaseActivity {
+
     @Override
     protected void initVariables() {
 
@@ -14,8 +15,6 @@ public class PlanActivity extends BaseActivity {
 
     @Override
     protected void initViews(Bundle savedInstanceState) {
-
-        setContentView(R.layout);
     }
 
     @Override

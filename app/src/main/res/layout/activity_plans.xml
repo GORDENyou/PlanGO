@@ -6,9 +6,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:background="#F5F5F5"
-    tools:context="com.plango.gordenyou.plango.PlanActivity">
+    tools:context="com.plango.gordenyou.plango.Activity.PlanActivity">
 
-    <com.plango.gordenyou.plango.GoToolbar
+    <com.plango.gordenyou.plango.UI.GoToolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:title="选择计划"
